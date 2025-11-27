@@ -1,7 +1,7 @@
 import traceback
 import textwrap
-from src.llm import generate_code
-from src.cleaning import clean_code
+from ds1000_eval.llm import generate_code
+from ds1000_eval.cleaning import clean_code
 
 def run_task(example: dict) -> bool:
     prompt = example["prompt"]
